@@ -27,6 +27,6 @@ func main() {
 		log.Fatalf("Failed to create Supabase client: %v", err)
 	}
 
-	fmt.Println("Successfully connected to Supabase client!")
+	fmt.Println("yoyoyoyo!")
 	fmt.Println("You can now proceed to set up tables, define models, and implement API endpoints.")
 }
