@@ -1,6 +1,5 @@
 {
   "expo": {
-    
     "name": "soulcircle",
     "slug": "soulcircle",
     "version": "1.0.0",
@@ -13,12 +12,16 @@
       "supportsTablet": true
     },
     "android": {
-      "permissions": ["INTERNET"],
+      "permissions": [
+        "INTERNET",
+        "INTERNET"
+      ],
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.anonymous.soulcircle"
     },
     "web": {
       "bundler": "metro",

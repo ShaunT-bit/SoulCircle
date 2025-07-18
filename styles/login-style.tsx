@@ -16,6 +16,9 @@ export const loginstyle = StyleSheet.create({
     paddingHorizontal: 150,
     borderRadius: 50,
     alignItems: "center",
+    paddingBottom: 12,
+    marginTop: 400
+
     },
 
     buttonText: {
@@ -30,4 +33,28 @@ export const loginstyle = StyleSheet.create({
     justifyContent: "center",
     alignItems: "center",
     },
+
+    sign: {
+        color: "#f1f1f7ff",
+        marginTop: 15
+    },
+
+    header: {
+    marginTop: 60,
+    paddingHorizontal: 30,
+    },
+
+    heading: {
+    fontSize: 40,
+    fontWeight: "bold",
+    color: "#fff",
+    textAlign: "left",
+    lineHeight:50,
+    },
+
+    form: {
+    flex: 1,
+    justifyContent: "center",
+    paddingHorizontal: 30,
+    }
 })
