@@ -15,17 +15,34 @@ export const styles = StyleSheet.create({
     textAlign: 'center',
     fontWeight: 'bold',
   },
-  input: {        // For text boxes
-    borderWidth: 1,
+  input_username: {        // For text boxes
+    borderWidth: 0,
     borderColor: '#ccc',
-    padding: 12,
-    marginBottom: 20,
+    marginBottom: 40,
     borderRadius: 25,
-    backgroundColor: '#fff',
+    backgroundColor: '#f2eddeff',
+    width: -100,
+    textAlign:"center"
+  },
+  input_password: {        // For text boxes
+    borderWidth: 0,
+    borderColor: '#ccc',
+    borderRadius: 25,
+    backgroundColor: '#f2eddeff',
+    width: -100,
+    textAlign:"center",
+    bottom:300,
   },
 
-  
 
+
+  colorSection: {
+    position: "absolute",
+    top: "35%",
+    width: "150%",
+    height: "85%",
+    backgroundColor: "#ffffffff",
+  }
 
 
 });
