@@ -9,6 +9,8 @@ dist/
 web-build/
 expo-env.d.ts
 
+Backend/.env
+
 # Native
 .kotlin/
 *.orig.*
@@ -38,4 +40,3 @@ yarn-error.*
 
 app-example
 
-/Backend/.env
