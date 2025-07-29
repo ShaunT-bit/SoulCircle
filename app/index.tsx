@@ -68,7 +68,7 @@ export default function Starting() {
 
           <View>
             {<Link href="/auth/sign-screen"  style={loginstyle.sign}>Create an account</Link>
-}
+  }
           </View>
           
 

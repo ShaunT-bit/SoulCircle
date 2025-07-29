@@ -22,7 +22,7 @@ export const loginstyle = StyleSheet.create({
     },
 
     buttonText: {
-    color: "#000",
+    color: "#00000ff",
     fontSize: 16,
     fontWeight: "bold",
 
@@ -57,4 +57,6 @@ export const loginstyle = StyleSheet.create({
     justifyContent: "center",
     paddingHorizontal: 30,
     }
+
+
 })

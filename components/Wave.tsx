@@ -8,11 +8,12 @@ export default function Wave() {
   return (
     <Svg
       width={width}
-      height={150}
+      height={160}
       viewBox="0 0 1140 320"
       style={{
         position: "absolute",
-        top: "22%",
+        top: "23%",
+        right:3
       }}
     >
       <Path
