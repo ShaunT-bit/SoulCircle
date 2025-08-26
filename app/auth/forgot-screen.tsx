@@ -1,11 +1,11 @@
 import React from 'react';
-import { View } from 'react-native';
+import { View, Text } from 'react-native';
 
-export default function forgot(){
-
+export default function Forgot() {
     return (
         <View>
-       
+            <Text>Forgot Screen</Text>
         </View>
     );
-};
+}
+

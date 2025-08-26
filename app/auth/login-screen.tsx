@@ -14,7 +14,7 @@ export default function Index() {
   const [checked, setChecked] = useState(false);
 
   return (
-    
+
 
     <>
       <View style={styles.container}>
@@ -28,7 +28,7 @@ export default function Index() {
             value={username}
             onChangeText={setUsername}
             autoCapitalize="none"
-          /> //USERNAME
+          />
           <TextInput
             style={styles.input_password}
             placeholder="Password"
@@ -36,9 +36,9 @@ export default function Index() {
             value={password}
             onChangeText={setPassword}
             secureTextEntry
-          /> //PASSWORD
+          />
 
-        
+
 
 
         <Link href="/auth/forgot-screen" style={styles.forgot}>
@@ -48,19 +48,19 @@ export default function Index() {
         <TouchableOpacity
           onPress={() => {
             if (username === 'admin' && password === 'password') {
-        router.push("/home");
+        router.push("/tabs/home");
       } else {
         Alert.alert('Login Failed', 'Invalid credentials');
       }
-    
+
           }}
           style={styles.box}>
             <Text style={styles.login2buttonText}>Login</Text>
-            
 
-        </TouchableOpacity>  //login button
 
-      
+        </TouchableOpacity>
+
+
       <View style = {{flexDirection:"row"  }}>
         <TouchableOpacity onPress={() => setChecked(!checked)}>
           <View style={[shapestyle.checkbox, checked && shapestyle.checked]}>
@@ -68,16 +68,16 @@ export default function Index() {
           </View>
           <Text style={shapestyle.label}>Remember me</Text>
         </TouchableOpacity>
-      </View>  //CHECKBOX
-      
-
-          
-
-        
+      </View>
 
 
-        
-        
+
+
+
+
+
+
+
         {/*</View>*/}
 
 
@@ -90,7 +90,7 @@ export default function Index() {
           height: 280,}}
           resizeMode="contain"
           blurRadius={5}
-          />      
+          />
         <Wave />
 
 
@@ -98,9 +98,8 @@ export default function Index() {
       <View style= {styles.welcomecontainer}>
         <Text style={styles.welcome}>Welcome Back</Text>
         <Text style={styles.welcomelog}>Login to your account</Text>
-      </View>    
+      </View>
 
     </>
   );
 }
-
